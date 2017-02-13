@@ -6,7 +6,7 @@
 #include <sstream>
 #include <iomanip>
 #include <string.h>
-#include "../include/Logger.hpp"
+#include "Logger.hpp"
 
 LogLevel stringToLogLevel(string level) {
     if (level == "error" || level == "Error" || level == "ERROR")
