@@ -37,7 +37,7 @@ export(PACKAGE ${CLOG_PACKAGE_NAME})
 # install library target and config files
 install(TARGETS ${CLOG_TARGET_NAME}
         EXPORT ${CLOG_PACKAGE_NAME})
-install(FILES "src/CLOG.hpp"
+install(FILES "src/Logger.hpp"
         DESTINATION ${CLOG_INCLUDE_DESTINATION})
 install(EXPORT ${CLOG_PACKAGE_NAME}
         FILE ${CLOG_TARGETS_FILENAME}
